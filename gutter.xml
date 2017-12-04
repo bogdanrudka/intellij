@@ -1,0 +1,41 @@
+<application>
+  <component name="LineMarkerSettings">
+    <option name="providers">
+      <map>
+        <entry key="ActionGroovyAnnotator" value="false" />
+        <entry key="ActionJavaAnnotator" value="true" />
+        <entry key="CdiInjectionsClassAnnotator" value="false" />
+        <entry key="ConfigurationPropertyRelatedItemLineMarkerProvider" value="false" />
+        <entry key="JspActionAnnotator" value="false" />
+        <entry key="ModelDependenciesLineMarkerProviderJava" value="false" />
+        <entry key="ModelDependenciesLineMarkerProviderXml" value="false" />
+        <entry key="SpringAopAnnotator" value="false" />
+        <entry key="SpringCacheableAnnotator" value="false" />
+        <entry key="SpringClassAnnotator" value="false" />
+        <entry key="SpringClassFilesetLineMarkerProvider" value="false" />
+        <entry key="SpringDataProjectionAnnotator" value="false" />
+        <entry key="SpringDataRepositoryAnnotator" value="false" />
+        <entry key="SpringDomAnnotator" value="false" />
+        <entry key="SpringEventListenerAnnotator" value="false" />
+        <entry key="SpringGroovyClassAnnotator" value="false" />
+        <entry key="SpringMvcRequestMappingRelatedItemLineMarkerProvider" value="false" />
+        <entry key="SpringSpiRegistrationAnnotator" value="false" />
+        <entry key="WebflowRelatedItemLineMarkerProvider" value="false" />
+        <entry key="com.intellij.aop.jam.AopJavaAnnotator" value="false" />
+        <entry key="com.intellij.codeInsight.ExternalAnnotationsLineMarkerProvider" value="false" />
+        <entry key="com.intellij.codeInsight.daemon.impl.IconLineMarkerProvider" value="false" />
+        <entry key="com.intellij.codeInsight.daemon.impl.RecursiveCallLineMarkerProvider" value="false" />
+        <entry key="com.intellij.execution.lineMarker.RunLineMarkerProvider" value="true" />
+        <entry key="com.intellij.lang.javascript.highlighting.JSRecursiveCallLineMarkerProvider" value="false" />
+        <entry key="com.intellij.sql.editor.SqlLineMarkerProvider" value="false" />
+        <entry key="com.intellij.ui.ColorLineMarkerProvider" value="false" />
+        <entry key="java.implemented" value="false" />
+        <entry key="java.implementing" value="false" />
+        <entry key="java.lambda" value="false" />
+        <entry key="java.overridden" value="false" />
+        <entry key="java.overriding" value="false" />
+        <entry key="org.jetbrains.kotlin.idea.spring.lineMarking.KotlinSpringModelDependenciesLineMarkerProvider" value="false" />
+      </map>
+    </option>
+  </component>
+</application>
