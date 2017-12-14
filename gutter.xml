@@ -2,8 +2,12 @@
   <component name="LineMarkerSettings">
     <option name="providers">
       <map>
+        <entry key="ActionGroovyAnnotator" value="true" />
+        <entry key="ActionJavaAnnotator" value="true" />
+        <entry key="CdiDisposerMethodsClassAnnotator" value="false" />
         <entry key="CdiInjectionsClassAnnotator" value="false" />
         <entry key="ConfigurationPropertyRelatedItemLineMarkerProvider" value="false" />
+        <entry key="JspActionAnnotator" value="true" />
         <entry key="ModelDependenciesLineMarkerProviderJava" value="false" />
         <entry key="ModelDependenciesLineMarkerProviderXml" value="false" />
         <entry key="SpringAopAnnotator" value="false" />
@@ -26,11 +30,13 @@
         <entry key="com.intellij.lang.javascript.highlighting.JSRecursiveCallLineMarkerProvider" value="false" />
         <entry key="com.intellij.sql.editor.SqlLineMarkerProvider" value="false" />
         <entry key="com.intellij.ui.ColorLineMarkerProvider" value="false" />
+        <entry key="com.intellij.ws.http.request.codeInsight.HttpRequestDiffLineMarkerProvider" value="false" />
         <entry key="java.implemented" value="false" />
         <entry key="java.implementing" value="false" />
         <entry key="java.lambda" value="false" />
         <entry key="java.overridden" value="false" />
         <entry key="java.overriding" value="false" />
+        <entry key="org.jetbrains.kotlin.idea.spring.lineMarking.KotlinSpringModelDependenciesLineMarkerProvider" value="false" />
       </map>
     </option>
   </component>
