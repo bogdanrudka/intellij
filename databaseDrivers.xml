@@ -19,6 +19,14 @@
       <option name="auto-commit" value="false" />
       <option name="send-app-info" value="true" />
     </driver>
+    <driver id="530278c1-3ed9-4084-b10c-2de8ae36f979" name="Phoenix Driver" driver-class="org.apache.phoenix.jdbc.PhoenixDriver">
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <library>
+        <url>file://C:/work/projects/m2/phoenix-client.jar</url>
+      </library>
+    </driver>
     <driver id="derby.embedded">
       <artifact name="Apache Derby" use="true" />
       <option name="auto-sync" value="true" />
