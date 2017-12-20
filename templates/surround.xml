@@ -1,0 +1,7 @@
+<templateSet group="surround">
+  <template name="T" value="long time = System.currentTimeMillis();&#10;$SELECTION$&#10;long total = System.currentTimeMillis() - time;" description="timer" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
