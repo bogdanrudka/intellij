@@ -1,5 +1,9 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="163">
+    <driver id="exasol">
+      <artifact name="Exasol" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
     <driver id="h2.unified">
       <artifact name="H2" use="true" />
       <option name="auto-sync" value="true" />
@@ -7,12 +11,21 @@
     <driver id="azure.ms">
       <artifact name="SQL Server" use="true" />
       <option name="auto-sync" value="false" />
+      <option name="send-app-info" value="false" />
     </driver>
     <driver id="oracle">
       <artifact name="Oracle" use="true" version="12.1.0.2" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="false" />
       <option name="send-app-info" value="true" />
+    </driver>
+    <driver id="530278c1-3ed9-4084-b10c-2de8ae36f979" name="Phoenix Driver" driver-class="org.apache.phoenix.jdbc.PhoenixDriver">
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <library>
+        <url>file://C:/work/projects/m2/phoenix-client.jar</url>
+      </library>
     </driver>
     <driver id="derby.embedded">
       <artifact name="Apache Derby" use="true" />
@@ -64,6 +77,7 @@
     <driver id="sqlserver.ms">
       <artifact name="SQL Server" use="true" />
       <option name="auto-sync" value="true" />
+      <option name="send-app-info" value="false" />
     </driver>
     <driver id="java.sql.Driver" name="Ignite" dialect="GenericSQL" driver-class="org.apache.ignite.IgniteJdbcThinDriver">
       <option name="auto-commit" value="true" />
@@ -71,6 +85,15 @@
       <option name="send-app-info" value="true" />
       <library>
         <url>file://C:/env/cloud/apache-ignite-fabric-2.1.0-bin/libs/ignite-core-2.1.0.jar</url>
+      </library>
+    </driver>
+    <driver id="3e27a20a-2b30-4a4e-ba5e-2cb0ea293753" name="Database Driver" dialect="Redshift" driver-class="org.apache.phoenix.jdbc.PhoenixDriver">
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <property name="phoenix.schema.isNamespaceMappingEnabled" value="true" />
+      <library>
+        <url>file://C:/work/projects/m2/phoenix-client.jar</url>
       </library>
     </driver>
     <driver id="db2.jtopen">
